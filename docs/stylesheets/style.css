@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+}
+
+.carousel-inner {
+  margin: 0 auto;
+}
+
+img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+.input-group {
+	width: 50%;
+	margin: 0 auto;
+  padding: 1em;
+}
