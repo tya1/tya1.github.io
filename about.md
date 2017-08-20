@@ -25,14 +25,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Ty Amelung</a>
+      <a class="navbar-brand" href="index.html">Ty Amelung</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="https://github.com/UO-CIT/p2-tya1.git">Project 2</a></li>
         <li><a href="https://github.com/UO-CIT/p3-tya1.git">Project 3</a></li>
-        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -40,60 +40,10 @@
 </div>
 
 <div class="container">
-
   <div class="text-center">
-    <h1>Flickr/Bootstrap Carousel</h1>
+    <h1>About</h1>
     <p class="lead">This app uses AJAX to request images from the Flickr photo sharing service, using Flickr's Web API.<br>Enter a tag to retrieve photos from Flickr.</p>
-
-    <div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Get Flicker!</button>
-      </span>
-      <input type="text" class="form-control" placeholder="Enter Flicker Tag">
-    </div>
   </div>
-
-<div class="container">
-	<div class="span8">
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="item active">
-				<img src="images/Elise.png" alt="">
-				<div class="carousel-caption">
-					<h4>My First Daughter Elise</h4>
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/Elise2.png" alt="">
-				<div class="carousel-caption">
-					<h4>Elise</h4>
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/Lucy.png" alt="">
-				<div class="carousel-caption">
-					<h4>My Second Daughter Lucy</h4>
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/Lucy2.png" alt="">
-				<div class="carousel-caption">
-					<h4>Lucy</h4>
-				</div>
-			</div>
-		</div>
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-	</div>
-	</div>
-</div>
-
 </div><!-- /.container -->
 
   <script src="javascripts/app.js"></script>
